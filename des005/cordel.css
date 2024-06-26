@@ -92,3 +92,15 @@ section#txtimg2 {
     margin-bottom: 35px;
     margin-left: 30px;
 }
+
+footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+footer > p {
+    text-align: center;
+    top: 10px;
+    position: relative;
+}
