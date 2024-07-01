@@ -23,12 +23,20 @@
         background-color: gray;
         color: white;
     }
+
+    caption {
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 10px;
+        background-color: lightgray;
+    }
 </style>
 <body>
     <h1>Uso de tabelas grandes</h1>
     <!--
      ANATOMA PARA TABELAS GRANDES
      TABLE
+        CAPTION
         THEAD
             TR, TD, TM
         TBODY
@@ -39,8 +47,8 @@
             <table>
                 <thead>
                     <tr>
-                        <th>Estado</th>
-                        <th>Poupulação</th>
+                        <th scope="col">Estado</th>
+                        <th scope="col">Poupulação</th>
                     </tr>
                 </thead>
 
@@ -61,10 +69,11 @@
 
                 <tfoot>
                     <tr>
-                        <td>Total de Habitantes</td>
+                        <th scope="row">Total de Habitantes</th>
                         <td>0000</td>
                     </tr>
                 </tfoot>
+                <caption>População das Unidades Federativas</caption>
             </table>
 </body>
 </html>
