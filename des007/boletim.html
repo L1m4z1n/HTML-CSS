@@ -27,7 +27,7 @@
     
     </style>
 </head>
-<body>
+<body onload="media()">
     <table>
       <thead>
         <tr>
@@ -46,12 +46,14 @@
         <tr>
             <th rowspan="5">Exatas</th>
         </tr>
-        <tr>
-            <td>Matemática</td>
-            <td>0.0</td>
-            <td>0.0</td>
-            <td>0.0</td>
-        </tr>
+        <div id="mediamtm">
+            <tr>
+                <td>Matemática</td>
+                <td id="n1">0.0</td>
+                <td id="n2">0.0</td>
+                <td id="res">0.0</td>
+            </tr>
+        </div> 
         <TR>
             <td>Física</td>
             <td>0.0</td>
@@ -94,6 +96,9 @@
             <td>0.0</td>
         </tr>
       </tbody>
+      
     </table>
+    <div id="aviso"></div>
 </body>
+<script src="media.js"></script>
 </html>
