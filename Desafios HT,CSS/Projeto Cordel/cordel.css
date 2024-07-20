@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Sriracha';
+    src: url(Sriracha-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fortefon';
+    src: url(PassionOne-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+p {
+    font-family: 'Sriracha';
+}
+
+h1{
+    font-family: 'Fortefon';
+}
+
+header {
+    background-color: black;
+    color: white;
+   
+    
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-size: 10vw;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+section {
+    padding-top: 20px;
+    font-size: 5vw;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-image: url('imagens/background001.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#txtimg {
+    display: inline-block;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px 0px black;
+    padding: 5px;
+    margin-bottom: 35px;
+    margin-left: 30px;
+}
+
+section.imagem2 {
+    background-image: url('imagens/background002.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#txtimg2 {
+    display: inline-block;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px 0px black;
+    padding: 5px;
+    margin-bottom: 35px;
+    margin-left: 30px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+footer > p {
+    text-align: center;
+    top: 10px;
+    position: relative;
+}
