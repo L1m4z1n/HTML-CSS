@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form action="cadastro.php" method="post"  autocomplete="off">
+        <p>
+            <label for="iusu">Usuário: </label>
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" size="10" placeholder="nome do usúario" autocomplete="username">
+        </p>
+        <p>
+            <!--
+            Existe tipo "Password" para senhas.
+            "Reset" para limpar a caixa de texto.
+            "required" campo obrigatório.
+            "minlenght" número minimo de letras.
+            "maxlenght" número máximo de letras.
+            "size" tamanho da caixa.
+            "placeholder" dica para saber o que fazer.
+            "autocomplete" você decide se quer que autocomplete com 'on' ou se não com 'off', ele é diferente do 'form' e 'label'.
+            -->
+            <label for="isen">Senha: </label>
+            <input type="password" name="sen" id="isen" required minlength="8" maxlength="20" size="8" placeholder="mínimo 8 letras" autocomplete="current-password">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
